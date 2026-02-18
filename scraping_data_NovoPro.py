@@ -58,4 +58,4 @@ finally:
     driver.quit()
 
 pd.DataFrame(results).to_excel("NovoPro_output.xlsx", index=False)
-print("Finished saving datas in SEA_output.xlsx")
+print("Finished!")

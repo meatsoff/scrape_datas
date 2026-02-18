@@ -78,4 +78,4 @@ finally:
     driver.quit()
 
 pd.DataFrame(results).to_excel("SEA_output.xlsx", index=False)
-print("Finished saving datas in SEA_output.xlsx")
+print("Finished!")
